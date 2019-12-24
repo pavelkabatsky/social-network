@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    flex: 0 1 30%;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 2px solid rgb(7, 128, 71);
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 4px;
+    
+
+}
+.avatar img {
+    transition: transform 0.5s ease;
+}
+.avatar:hover img {
+    transform: scale(1.1);
+}
+.name {
+    font-size: 10px;
+}

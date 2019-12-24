@@ -1,0 +1,14 @@
+.messages {
+    padding-left:24px;
+}
+.messages__item {
+    width: 80%;
+    padding: 16px;
+    background-color:rgba(255,255,255,0.4);
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+.messages__item._right {
+    margin-left: auto;
+    background-color:tomato;
+}

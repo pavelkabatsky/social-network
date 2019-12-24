@@ -1,0 +1,29 @@
+.header {
+    grid-area: header;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header img {
+    height: 60px;
+}
+
+.loginBlock {
+    display: flex;
+    align-items: center;
+}
+.loginBlock img {
+    margin-right: 16px;
+    max-width: 150px;
+}
+.loginBlock a {
+    font-weight: bold;
+    text-decoration: none;
+    color:seagreen;
+}
+.loginBlock button {
+    margin-left: 10px;
+}

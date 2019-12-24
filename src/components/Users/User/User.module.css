@@ -1,0 +1,57 @@
+
+.userItem {
+    padding: 16px;
+}
+
+.itemInner {
+    display: flex;
+}
+
+.avatar {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.avatar img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.avatarBlock {
+    text-align: center;
+}
+
+.avatarBlock button {
+    width: 100px;
+    padding: 8px 0;
+    background-color: seagreen;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 8px;
+    outline:none;
+}
+
+.info {
+    flex: 1 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding:8px;
+    display: flex;
+    flex-direction: column;
+}
+.userName {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.userStatus {
+    margin-top: auto;
+}

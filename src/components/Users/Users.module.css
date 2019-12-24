@@ -1,0 +1,31 @@
+.usersWrapper {
+    position: relative;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+.pagination ul {
+    padding: 8px 0;
+    display: flex;
+    width: 700px;
+    overflow-x: scroll;
+}
+
+.pagination ul li {
+    padding: 4px 8px;
+    background-color: seagreen;
+    font-weight: bold;
+    margin: 4px;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+.pagination ul li.current {
+    transform: scale(1.2);
+    border: 1px solid darkgreen;
+}
